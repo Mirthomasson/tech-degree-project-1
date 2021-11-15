@@ -128,7 +128,7 @@ footer {
 
 footer .copyright {
   top: -8px;
-  font-size: 1em;
+  font-size: .75em;
 }
 
 footer ul {
@@ -145,9 +145,9 @@ a.social {
   display: inline-block;
   text-indent: -9999px;
   margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  background-size: 30px 30px;
+  width: 40px;
+  height: 40px;
+  background-size: 40px 40px;
   opacity: .4;
   transition: all .5s;
 }
