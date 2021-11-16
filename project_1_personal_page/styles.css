@@ -200,3 +200,14 @@ a.social:hover {
 
 }
 
+h3 {
+  color: teal;
+  letter spacing: 2px;
+}
+
+.card-title {
+  text-align: center;
+
+}
+
+/* interests.html header css */
