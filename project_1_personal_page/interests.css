@@ -1,3 +1,11 @@
+.main-nav {
+    width: 100%;
+    background: black;
+    min-height: 30px;
+    padding: 10px;
+    position: fixed;
+    text-align: center;
+  }
 body {
 font-family: "Arial";
 }
