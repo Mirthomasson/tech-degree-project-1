@@ -102,6 +102,7 @@ header .profile-image:hover {
 .card-title {
 border: 3px solid teal;
 border-radius: 10px;
+padding: 5px 10px;
 }
 .card:hover {
   border-color: #7cf586;
