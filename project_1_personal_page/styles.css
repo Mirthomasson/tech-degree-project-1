@@ -105,9 +105,7 @@ border-radius: 10px;
 padding: 10px;
 background: lightblue;
 }
-.card:hover {
-  border-color: #7cf586;
-}
+
 
 ul.skills {
   padding: 0;
