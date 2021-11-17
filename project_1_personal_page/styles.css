@@ -69,7 +69,7 @@ header .profile-image {
   margin-top: 50px;
   width: 150px;
   height: 150px;
-  border-radius: 10px;
+  border-radius: 50%;
   border: 4px solid rgb(112, 226, 226);
   transition: all .5s;
 }
@@ -80,7 +80,7 @@ header .profile-image:hover {
   background-color: #efefef;
   color: black;
   padding: 10px;
-  border-radius: 5px;
+  border-radius: 10px;
   display: table;
   margin: 10px auto;
 } 
