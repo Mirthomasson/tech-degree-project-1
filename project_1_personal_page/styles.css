@@ -30,6 +30,9 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
+  hover {
+    opacity: 1;
+  }
 }
 .nav {
   display: flex;
@@ -38,7 +41,6 @@ a:hover {
   list-style-type: none;
   margin: 0 auto;
   padding: 0;
-  hover: opacity: 1;
 }
 
 .nav .name {
