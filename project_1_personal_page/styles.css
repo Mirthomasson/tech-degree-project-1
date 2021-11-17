@@ -119,7 +119,6 @@ ul.skills {
   color: white;
   padding: 5px 10px;
   margin: 4px;
-  border-bottom: 2px;
 }
 
 .skills li:nth-child(odd) {
