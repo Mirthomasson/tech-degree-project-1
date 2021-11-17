@@ -98,6 +98,9 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+.card:hover {
+  border-color: greenyellow;
+}
 
 .card-title {
 border: 3px solid lightblue;
