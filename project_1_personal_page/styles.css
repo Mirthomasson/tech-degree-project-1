@@ -30,9 +30,6 @@ a:hover {
   padding: 10px;
   position: fixed;
   text-align: center;
-  hover {
-    opacity: 1;
-  }
 }
 .nav {
   display: flex;
@@ -138,6 +135,10 @@ footer .copyright {
   top: -8px;
   font-size: .85em;
   color: white;
+}
+
+a.copyright:hover {
+  opacity: 1;
 }
 
 footer .top {
