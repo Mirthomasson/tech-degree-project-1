@@ -98,6 +98,11 @@ header .profile-image:hover {
   border-radius: 6px;
   transition: all .5s;
 }
+
+.card-title {
+border: 3px solid teal;
+
+}
 .card:hover {
   border-color: #7cf586;
 }
@@ -211,12 +216,7 @@ h3 {
   letter spacing: 2px;
 }
 
-.card {
-width: 200px;
-height: 100px;
-border: 3px solid teal;
-background: #eee;
-}
+
 
 /* interests.html header css */
 
