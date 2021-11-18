@@ -80,6 +80,7 @@ header .tag:hover {
     transform: scale(1.2) rotate(15deg);
   }
   /* Link Styles */
+}
   
   a {
     text-decoration: none;
