@@ -1,4 +1,3 @@
-  line-height: 1.5;
 /* Global Layout Set-up */
 * {
   box-sizing: border-box;
@@ -53,7 +52,7 @@ a:hover {
   transition: all 0.5s;
 }
 .nav a:hover {
-  color: white;
+  color: purple;
 }
 
 header {
@@ -79,58 +78,126 @@ header {
 header .tag:hover {
     transform: scale(1.2) rotate(15deg);
   }
-  /* Link Styles */
+.location {
+  background-color: #222;
+  color: white;
+}
+.card {
+  margin: 30px;
+  padding: 20px 40px 40px;
+  max-width: 500px;
+  text-align: center;
+  background: #fff;
+  border-bottom: 8px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.5s;
+}
+.card:hover {
+    border-color: grey;
+  }
+
+.card-title {
+  border: 3px solid pink;
+  border-radius: 10px;
+  padding: 10px;
+  background: pink;
 }
 
-  
-  a {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-  }
-  a:hover {
-    color: #6633ff;
-  }
-  
-  /* Section Styles */
-  
-  .main-nav {
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: purple;
+  color: white;
+  padding: 5px 10px;
+  margin: 4px;
+}
+
+.skills li:nth-child(odd) {
+  background: navy;
+}
+footer {
     width: 100%;
-    background: black;
     min-height: 30px;
-    padding: 10px;
-    position: fixed;
-    text-align: center;
+    padding: 20px 0 40px 20px;
   }
-  .nav {
-    display: flex;
-    justify-content: space-around;
-    font-weight: 700;
+  
+  footer .copyright {
+    top: -8px;
+    font-size: .85em;
+    color: white;
+  }
+  
+  a.copyright:hover {
+    opacity: 1;
+  }
+  
+  footer .top {
+    color: greenyellow;
+  
+  }
+  
+  footer ul {
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
   }
   
-  .nav .name {
-      display: block;
-      margin-right: auto;
-      color: white;
+  footer ul li {
+    display: inline-block;
   }
-  .nav li {
-    padding: 5px 10px 10px 10px;
-  }
-  .nav a {
-    transition: all .5s;
-  }
-  .nav a:hover {
-    color: white
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+  
+    .flex {
+        display: -ms-flexbox;      /* TWEENER - IE 10 */
+        display: flex; 
+        max-width: 1200px;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+  
+    header {
+      min-height: 470px;
+    }
+  
+    .nav {
+      max-width: 1200px;
+      padding: 0 30px;
+    }
+  
+  
+    main {
+      padding-top: 20px;
+    }
+  
+    main p {
+      line-height: 1.6em;
+    }
+  
+    footer {
+      font-size: 1em;
+      
+      max-width: 1200px;
+      margin: 40px auto;
+    }
+  
   }
   
-  header {
-    text-align: center;
-    background: url('https://placeimg.com/1000/1000/nature') no-repeat top center ;
-    background-size: cover;
-    overflow: hidden;
-    padding-top: 60px;
+  h3 {
+    color: teal;
+    letter spacing: 2px;
   }
-  header {
-    line-height: 1.5;
+  #box {
+    background-color: burlywood ;
+    padding: 10px ;
+    border: 1px solid #burlywood ;
+    border-radius: 10px;
+    font-size: 1.3em;
+  }
+  
