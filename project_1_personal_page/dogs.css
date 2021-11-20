@@ -73,6 +73,9 @@
     border: 4px solid lightblue;
     transition: all .5s;
   }
+  header .profile-image:hover {
+    transform: scale(1.2) rotate(15deg);
+  }
   .tag {
     background-color: #efefef;
     color: black;
