@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background-image: url("images/monroe.png") no-repeat top center;
+  background: url("images/monroe.png") no-repeat top center;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -82,7 +82,7 @@ header .profile-image:hover {
   padding: 10px;
   border-radius: 10px;
   display: table;
-  margin: 10pxauto;
+  margin: 10px auto;
 }
 .location {
   background-color: #222;
