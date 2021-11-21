@@ -293,10 +293,19 @@ header {
   border-radius: 20px;
   display: table;
   margin: 10px auto;
+  transition: all 0.5s;
+}
+.title {
+  background-color: #efefef;
+  color: black;
+  padding: 30px;
+  border-radius: 20px;
+  display: table;
+  margin: 10px auto;
   border: 7px double pink;
   transition: all 0.5s;
 }
-header .tag:hover {
+header .title:hover {
   transform: scale(1.2) rotate(15deg);
 }
 .location {
@@ -409,13 +418,6 @@ footer ul li {
 h3 {
   color: teal;
   letter-spacing: 2px;
-}
-#box {
-  background-color: burlywood;
-  padding: 10px;
-  border: 1px solid burlywood;
-  border-radius: 10px;
-  font-size: 1.3em;
 }
 
 /* Style for Dogs Page*/
