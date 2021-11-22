@@ -215,12 +215,6 @@ a.social:hover {
 
 /* Style for Interests Page */
 
-a:hover {
-  color: #6633ff;
-}
-
-/* Section Styles */
-
 .main-nav2 {
   width: 100%;
   background: black;
@@ -258,13 +252,14 @@ a:hover {
   padding: 30px;
   border-radius: 20px;
   display: table;
-  margin: 10px auto;
+  margin: 80px auto;
   border: 7px double pink;
   transition: all 0.5s;
 }
 header .title:hover {
   transform: scale(1.2) rotate(15deg);
 }
+
 .location {
   background-color: #222;
   color: white;
@@ -306,11 +301,6 @@ ul.skills {
 
 .skills li:nth-child(odd) {
   background: navy;
-}
-
-h3 {
-  color: teal;
-  letter-spacing: 2px;
 }
 
 /* Style for Dogs Page*/
