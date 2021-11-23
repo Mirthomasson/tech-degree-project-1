@@ -193,6 +193,7 @@ a.social:hover {
   }
 
   .nav2 {
+    max-width: 1200px;
     padding: 0 30px;
   }
 
